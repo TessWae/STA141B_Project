@@ -87,7 +87,7 @@ ui <- navbarPage(
     "Look up common ingredients and learn more about them. Examples: Vodka, Wine, Malibu or Lime",
     tags$hr(),
     textInput("ingredient",
-      "Search",
+      "Type an ingredient",
       value = ""
     ),
     actionButton("ingredient_button", "Search"),
